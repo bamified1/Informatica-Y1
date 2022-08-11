@@ -1,0 +1,42 @@
+.overOns{
+    background-color: rgb(54, 54, 54);
+    background-image: url("../Images/overons.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-top: 20px;
+}
+
+.child{
+    background-color: rgba(29, 29, 29,0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#logoOverOns{
+    width: 250px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+      display: none;
+    }
+}
+
+@media print{
+    #logoOverOns{
+        max-width: 100px;
+        padding: 10px;
+        border: 5px solid;
+        border-color: #BB13FE;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #BB13FE;
+    }
+}

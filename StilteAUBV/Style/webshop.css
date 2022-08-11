@@ -1,0 +1,98 @@
+.main{
+    margin: 20px;
+}
+
+.webshop{
+    background-color: rgb(54, 54, 54);
+    background-image: url("../Images/aanbodBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+  background:#fff;
+  padding:5px;
+  border-radius:6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width: 300px;
+  text-align: center;
+  color: black;
+}
+
+.cardContent{
+    padding:5px;
+    border-radius:6px;
+}
+
+.cardContent img{
+    border-radius:6px;
+    height: 200px;
+    width: 100%;
+}
+
+.searchCatalog{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.searchCatalog .searchBtn{
+    background-color: #BB13FE;
+    color: white;
+    border-color: #BB13FE;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.searchCatalog .searchField{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(235, 235, 235);
+    border-color: #BB13FE;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.form-control{
+    background-color: rgb(235, 235, 235);
+    border-color: #BB13FE;
+    border-width: 2px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+form input:focus{
+    border-color: #BB13FE;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 9px #BB13FE;
+}
+
+.form-control:focus{
+    border-color: #BB13FE;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 9px #BB13FE;
+}
+
+.shopbtn{
+    width: 100%;
+    max-width: 50px;
+    color: white;
+    background-color: #BB13FE;
+    border-style: none;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.shopbtn:hover{
+    background-color: #8d0fbe;
+}
+
+.shopFlex{
+    display: flex;
+}
+
+.shopbtn img{
+    height: 20px;
+}
